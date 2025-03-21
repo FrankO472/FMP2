@@ -3,8 +3,8 @@ using UnityEngine;
 public class FreeLookCamera : MonoBehaviour
 {
     [Header("Mouse")]
-    private float mouseX;
-    private float mouseY;
+    [SerializeField] private float mouseX;
+    [SerializeField] private float mouseY;
  
     [Header("Camera Sensitivity")]
     [SerializeField] private float lookSensitivity = 100f;
