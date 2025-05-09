@@ -18,6 +18,6 @@ public class InteractManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        interactText.text = totalInteracts + "/" + maxInteracts;
+        interactText.text = "Sabotage the Objective: " + totalInteracts + "/" + maxInteracts;
     }
 }
